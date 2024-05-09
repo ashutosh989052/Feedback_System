@@ -1,0 +1,23 @@
+->instructions for running the Online Faculty Evaluation System:
+
+To run the Online Faculty Evaluation System, you need to have a virtual server installed on your computer. We recommend using XAMPP for this purpose. The source code for the system is available for free download, but we advise that you use it for educational purposes only.
+
+Once you have XAMPP running, follow these steps:
+
+1. Extract the downloaded file.
+2. Copy the main project folder.
+3. Paste the folder in the 'htdocs' directory of XAMPP.
+4. Next, you need to connect to the database:
+
+Open your web browser and go to the URL "http://localhost/phpmyadmin/".
+5. Click on the 'databases' tab.
+6. Create a database named "evaluation_db" and click on the 'import' tab.
+7. Click on the 'browse' button and select the "evaluation_db.sql" file located in the 'db' folder.
+8. Click on the 'Go' button.
+9. Once the database is created, you can now run the system:
+
+10. Open your web browser and go to the URL "http://localhost/Feedback_System".
+11. To access the system as an admin, use the following credentials:
+
+Email: admin@admin.com
+Password: admin123
